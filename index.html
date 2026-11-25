@@ -70,3 +70,106 @@ footer p,footer a{color:var(--mut);font-size:14px;display:block;margin:6px 0}foo
 .cp{text-align:center;margin-top:34px;color:var(--mut);font-size:13px}
 .rv{opacity:0;transform:translateY(36px);transition:1s cubic-bezier(.2,.7,.2,1)}.rv.v{opacity:1;transform:none}
 #cb{position:fixed;right:22px;bottom:22px;z-index:60}
+#cbt{width:62px;height:62px;border-radius:50%;border:0;background:var(--g);color:#fff;font-size:26px;cursor:pointer;box-shadow:0 10px 30px rgba(124,92,255,.5);animation:pu 2.5s infinite}
+@keyframes pu{50%{box-shadow:0 0 0 14px rgba(124,92,255,0)}}
+#cw{display:none;position:absolute;right:0;bottom:76px;width:340px;max-width:calc(100vw - 44px);background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#cw.on{display:block}
+.ch{background:var(--g);padding:16px 20px;font:600 15px Poppins}
+#ms{height:290px;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:10px}
+.m{max-width:85%;padding:10px 14px;border-radius:14px;font-size:14px;line-height:1.5}.m.b{background:#1b2440;align-self:flex-start}.m.u{background:var(--a);align-self:flex-end}
+.qk{display:flex;flex-wrap:wrap;gap:6px;padding:0 16px 10px}.qk button{background:none;border:1px solid var(--line);color:var(--b);border-radius:50px;padding:5px 12px;font-size:12px;cursor:pointer}
+#cf{display:flex;border-top:1px solid var(--line)}#cf input{border:0;border-radius:0}#cf button{background:none;border:0;color:var(--b);padding:0 18px;cursor:pointer;font-size:18px}
+@media(max-width:900px){.hero .wrap,.split,.fg{grid-template-columns:1fr}.vis{display:none}.grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}
+#burger{display:block}nav{display:none;position:absolute;top:106px;left:0;right:0;background:#0B0F19;flex-direction:column;padding:20px;border-bottom:1px solid var(--line)}nav.open{display:flex}.top-bar .wrap{justify-content:center;font-size:12.5px}}
+</style>
+
+<!-- Microsoft UET Base Tag -->
+<script>
+(function(w, d, t, u, o) {
+  w[u] = w[u] || [], o.ts = (new Date).getTime();
+  var n = d.createElement(t);
+  n.src = "https://bat.bing.net/bat.js?ti=" + o.ti + ("uetq" != u ? "&q=" + u : ""),
+  n.async = 1,
+  n.onload = n.onreadystatechange = function() {
+    var s = this.readyState;
+    s && "loaded" !== s && "complete" !== s || (o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad"), n.onload = n.onreadystatechange = null)
+  };
+  var i = d.getElementsByTagName(t)[0];
+  i.parentNode.insertBefore(n, i);
+})(window, document, "script", "uetq", {ti:"97294853", enableAutoSpaTracking: true});
+</script>
+
+<!-- Microsoft UET Consent Mode (Default) -->
+<script>
+window.uetq = window.uetq || [];
+window.uetq.push('consent', 'default', {'ad_storage': 'denied'});
+
+// Trigger this update only when a user clicks "Accept" on your cookie banner:
+// window.uetq.push('consent', 'update', {'ad_storage': 'granted'});
+</script>
+</head>
+<body>
+<header>
+<div class="top-bar"><div class="wrap">
+<a href="tel:+919205877587" aria-label="Call Us"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><span>+91 92058 77587</span></a>
+<span class="sep">|</span>
+<a href="https://wa.me/919205877587" target="_blank" rel="noopener noreferrer" class="wa" aria-label="Chat on WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.95 9.95 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg><span>WhatsApp</span></a>
+</div></div>
+<div class="wrap bar"><a href="/" class="logo"><img src="assets/images/branding/logo.png" alt="The Word & Note Logo">The Word <span>&</span> Note</a>
+<nav id="nav">
+<a href="/" class="on">Home</a>
+<a href="/about/">About</a>
+<a href="/services/">Services</a>
+<a href="/industries/">Industries</a>
+<a href="/work/">Our Work</a>
+<a href="/pricing/">Pricing</a>
+<a href="/faqs/">FAQs</a>
+<a href="/contact/" class="btn">Get a Quote</a>
+</nav>
+<button id="burger" aria-label="Menu">☰</button></div></header>
+
+<main>
+<div class="hero"><div class="blob b1"></div><div class="blob b2"></div><div class="wrap"><div>
+<span class="tag">Content • SEO • Social Media</span>
+<h1>Content that builds trust. <span class="grad">Words that drive growth.</span></h1>
+<p>We are a content and digital marketing studio helping startups, agencies and growing brands rank higher, speak confidently and turn visitors into loyal clients, with 100% human-written content.</p>
+<a href="/contact/" class="btn">Start Your Project</a><a href="/services/" class="btn o">Explore Services</a></div>
+<div class="vis"><div class="fc f1"><b class="grad">+240%</b><small>Organic traffic growth</small></div><div class="fc f2"><b>#1</b><small>Page-one keyword rankings</small></div><div class="fc f3"><b class="grad">4.9★</b><small>Client satisfaction</small></div></div></div></div>
+<div class="wrap"><div class="stats">
+<div class="st rv"><b data-c="280">0</b><span>+ Projects Delivered</span></div><div class="st rv"><b data-c="100">0</b><span>+ Industries Served</span></div><div class="st rv"><b data-c="30">0</b><span>+ Writing Services</span></div><div class="st rv"><b data-c="100">0</b><span>% Human-Written</span></div></div></div>
+<div class="mq"><div><span>Startups</span><span>Accounting</span><span>SaaS</span><span>Healthcare</span><span>Legal</span><span>E-commerce</span><span>Real Estate</span><span>Agencies</span><span>Startups</span><span>Accounting</span><span>SaaS</span><span>Healthcare</span><span>Legal</span><span>E-commerce</span><span>Real Estate</span><span>Agencies</span></div></div>
+<section><div class="wrap c"><span class="tag">What We Do</span><h2>Everything your brand needs to <span class="grad">get found</span></h2><p class="sub">From strategy to publishing, one team handles your full content engine.</p>
+<div class="grid" style="text-align:left" id="hs"></div><p style="margin-top:40px"><a href="/services/" class="btn o">View All Services</a></p></div></section>
+<section><div class="wrap split"><div class="rv"><span class="tag">Why Us</span><h2>Strategy-first. <span class="grad">Human</span> always.</h2><ul class="ck"><li>No templates, no shortcuts, every brief is researched</li><li>SEO-optimised with real keyword and intent research</li><li>Unlimited minor revisions on every package</li><li>Full ownership of content after payment</li></ul><p style="margin-top:26px"><a href="/about/" class="btn">Our Story</a></p></div>
+<div class="q rv">“We don't use one-size-fits-all templates. We rely on thorough planning, meticulous research and intentional writing.”<p style="font:500 14px Inter;color:var(--mut);margin-top:16px">: The Word & Note</p></div></div></section>
+<section><div class="wrap"><div class="cta rv"><h2>Ready to grow your brand?</h2><p style="margin-bottom:24px">Let's create content that works as hard as you do.</p><a href="/contact/" class="btn">Start Your Project Today</a></div></div></section>
+</main>
+
+<footer><div class="wrap fg"><div><a href="/" class="logo"><img src="assets/images/branding/logo.png" alt="The Word & Note Logo">The Word <span>&</span> Note</a><p>Content that builds trust. Words that drive growth.</p><a href="mailto:contact@thewordandnote.com">contact@thewordandnote.com</a>
+<div class="socials">
+<a href="https://www.instagram.com/thewordandnote?bqrl=a24ya3duNzV1NzB1" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+<a href="https://www.facebook.com/share/1KbCbjZvsy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+<a href="https://www.linkedin.com/in/thewordandnote" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+</div></div>
+<div><h4>Quick Links</h4><a href="/about/">About</a><a href="/services/">Services</a><a href="/work/">Our Work</a><a href="/pricing/">Pricing</a></div><div><h4>Company</h4><a href="/industries/">Industries</a><a href="/faqs/">FAQs</a><a href="/contact/">Contact</a></div></div><p class="cp">© <span id="yr"></span> The Word & Note. All rights reserved.</p></footer>
+
+<div id="cb"><div id="cw"><div class="ch">💬 Word & Note Assistant</div><div id="ms"></div><div class="qk" id="qk"></div><form id="cf"><input id="ci" placeholder="Type your question…" autocomplete="off"><button>➤</button></form></div><button id="cbt" aria-label="Chat">💬</button></div>
+
+<script>
+const S=[["SEO Content Writing","Keyword-led articles, pillar pages, service and location pages that rank.",["SEO Blogs","Service Pages","Meta Tags"]],["Website Copywriting","Conversion-focused copy for home, about, service and contact pages.",["Home","About","Landing Pages"]],["Blog Writing","Authority-building articles, how-to guides and thought leadership.",["Guides","Insights","Evergreen"]]];
+const $=s=>document.querySelector(s);
+$('#hs').innerHTML=S.map((s,i)=>`<div class="card rv"><span class="n">0${i+1}</span><h3>${s[0]}</h3><p>${s[1]}</p></div>`).join('');
+$('#yr').textContent=new Date().getFullYear();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('v');const b=e.target.querySelector('[data-c]');if(b&&!b.d){b.d=1;let t=+b.dataset.c,n=0;const k=setInterval(()=>{n+=Math.ceil(t/40);if(n>=t){n=t;clearInterval(k)}b.textContent=n},35)}io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.rv').forEach((el,i)=>{el.style.transitionDelay=(i%3)*.12+'s';io.observe(el)});
+$('#burger').onclick=()=>$('#nav').classList.toggle('open');
+// chatbot
+const ms=$('#ms');function add(t,c){const d=document.createElement('div');d.className='m '+c;d.textContent=t;ms.append(d);ms.scrollTop=1e5}
+function ask(q){add(q,'u');setTimeout(()=>add("Great question! Please email contact@thewordandnote.com and our team will help you personally.",'b'),500)}
+$('#qk').innerHTML=['Services','Pricing','Get started'].map(q=>`<button>${q}</button>`).join('');$('#qk').onclick=e=>e.target.tagName=='BUTTON'&&ask(e.target.textContent);
+add("Hi! I'm the Word & Note assistant. Ask me about services, pricing or getting started.",'b');
+$('#cbt').onclick=()=>$('#cw').classList.toggle('on');
+$('#cf').onsubmit=e=>{e.preventDefault();const v=$('#ci').value.trim();if(v){ask(v);$('#ci').value=''}};
+</script>
+</body>
+</html>
